@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Krijo afat të ri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mTextViewAfati"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="33sp"
+        android:textColor="#c7213b" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mTextViewA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Afati:"
+            android:textSize="30sp"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/mSpinnerMuaji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/mSpinnerViti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.60"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mTextViewDataFillimit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_weight="0.62"
+                android:gravity="right"
+                android:text="Data fillimit:"
+                android:textSize="20sp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/mEditTextDataFillimit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:focusable="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mTextViewDataMbarimit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:text="Data mbarimit:"
+                android:textSize="20sp"
+                android:gravity="right"
+                android:textColor="#000000"
+                android:layout_weight="0.12" />
+
+            <EditText
+                android:id="@+id/mEditTextDataMbarimit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:focusable="false"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/mButtonSave"
+            android:text="Ruaj"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:background="#c7213b"
+            android:layout_width="100dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#c7213b"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/mImageButtonProfile"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.30"
+            android:background="#c7213b"
+            android:src="@drawable/profile" />
+
+        <ImageButton
+            android:id="@+id/mImageButtonProvimet"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.30"
+            android:background="#c7213b"
+            android:src="@drawable/provimet" />
+
+        <ImageButton
+            android:id="@+id/mImageButtonLogout"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.30"
+            android:background="#c7213b"
+            android:src="@drawable/logout1" />
+    </LinearLayout>
+</LinearLayout>

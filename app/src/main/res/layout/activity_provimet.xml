@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.89">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.89"
+            android:weightSum="1"
+            android:layout_marginTop="5dp">
+
+
+            <TextView
+                android:text="Paraqit e provimet"
+                android:layout_width="326dp"
+                android:id="@+id/mTextViewProvimet"
+                android:layout_height="40dp"
+                android:textSize="33sp"
+                android:textColor="#c7213b"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="15dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="483dp"
+                android:weightSum="1">
+
+               <!-- <TextView
+                    android:text="Departamenti"
+                    android:layout_width="174dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/textView5"
+                    android:gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:textSize="25sp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="177dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/mDepartamenti"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    android:textColor="#c7213b"
+                    android:layout_weight="0.20" />-->
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="310dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_margin="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.13"
+                    android:weightSum="1">
+
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="387dp"
+                        android:id="@+id/mListViewLendet"
+                        android:cacheColorHint="#c7213b" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_height="50dp">
+
+        <Button
+            android:text="Paraqit"
+            android:id="@+id/mButtonSubmit"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:background="#c7213b"
+            android:layout_width="100dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#c7213b"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_weight="0.30"
+            android:layout_gravity="center"
+            android:background="#c7213b"
+            android:src="@drawable/profile"
+            android:id="@+id/mImageButtonProfile"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_weight="0.30"
+            android:layout_gravity="center"
+            android:background="#c7213b"
+            android:src="@drawable/provimet"
+            android:id="@+id/mImageButtonProvimet"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_weight="0.30"
+            android:layout_gravity="center"
+            android:background="#c7213b"
+            android:src="@drawable/logout1"
+            android:id="@+id/mImageButtonLogout"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.90"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/universum_logo"
+            android:id="@+id/mImageViewLogo"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:id="@+id/mTextViewM"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="#c7213b"
+            android:text="Dëshironi të dilni nga profili juaj?"
+            android:layout_marginTop="35dp"
+            android:layout_weight="0.17"
+            android:layout_height="70dp"
+            android:layout_width="355dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:text="Logout"
+            android:id="@+id/mButtonLogout"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:background="#c7213b"
+            android:layout_width="100dp" /> />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#c7213b"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:layout_gravity="center"
+            android:background="#c7213b"
+            android:src="@drawable/profile"
+            android:id="@+id/mImageButtonProfile" />
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:layout_gravity="center"
+            android:background="#c7213b"
+            android:src="@drawable/provimet"
+            android:id="@+id/mImageButtonProvimet" />
+        <ImageButton
+            android:layout_gravity="center"
+            android:background="#c7213b"
+            android:src="@drawable/logout1"
+            android:id="@+id/mImageButtonLogout"
+            android:layout_weight="0.29"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+    </LinearLayout>
+</LinearLayout>

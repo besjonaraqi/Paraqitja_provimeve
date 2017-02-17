@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.universum.aplikacioni.paraqitja_provimeve">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="org.universum.paraqitja_provimeve.InfoActivity" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="org.universum.paraqitja_provimeve.StudentActivity" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProvimetActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="org.universum.paraqitja_provimeve.ProvimetActivity" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProvimetAdmActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="org.universum.paraqitja_provimeve.ProvimetAdmActivity" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProvimetStuActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="org.universum.paraqitja_provimeve.ProvimetStuActivity" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AdministrataActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="org.universum.paraqitja_provimeve.AdministrataActivity" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InfoAdmActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="org.universum.paraqitja_provimeve.InfoAdmActivity" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InfoStuActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="org.universum.paraqitja_provimeve.InfoStuActivity" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

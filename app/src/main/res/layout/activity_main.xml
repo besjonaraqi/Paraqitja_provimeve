@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    tools:context="org.universum.aplikacioni.paraqitja_provimeve.MainActivity"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_weight="0.90"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/universum_logo"
+            android:id="@+id/mImageViewLogo"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp" />
+
+        <TextView
+            android:text="Përdoruesi:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mTextViewPerdoruesi"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000000" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/mEditTextEmail"
+            android:textSize="25sp"
+            android:gravity="center_vertical|center"
+            android:textColor="#cf2645"
+            android:hint="përdoruesi@universum-ks.org" />
+
+        <TextView
+            android:text="Fjalëkalimi:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mTextViewFjalekalimi"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000000" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/mEditTextPassword"
+            android:textSize="25sp"
+            android:gravity="center_vertical|center"
+            android:textColor="#cf2645"
+            android:hint="fjalëkalimi" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:layout_marginBottom="80dp"
+        android:gravity="center"
+        android:layout_width="match_parent">
+
+        <Button
+            android:text="Kyçu"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/mButtonLogin"
+            android:layout_weight="1"
+            android:background="#cf2645"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp" />
+
+    </LinearLayout>
+</LinearLayout>
+
