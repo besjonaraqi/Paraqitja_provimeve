@@ -1,0 +1,73 @@
+#login {
+	width: 273px;
+	height: 150px;
+	background: #cf2645;
+	font-family: Arial;
+	font-size: 18px;
+	margin: auto;
+	display:block
+    padding: 50;
+}
+body{
+	background:#e8e9ea;
+}
+td{
+	color:#ffffff;
+    font-weight: bolder;
+}
+#register {
+	width: 273px;
+    height: 320px;
+    background: #cf2645;
+    font-family: Arial;
+    font-size: 18px;
+    margin: auto;
+	display:block;
+    padding: 50;
+}
+.button{
+	text-align:center;
+	color:#ffffff;
+	font-size:20px;
+}
+h1{
+	text-align:center;
+	color:#ffffff;
+	
+}
+div.shto{
+	
+	font-size:25px;
+	margin-left: 450px;
+    margin-top: 111px;
+}
+a.button1 {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: #ffffff;
+	background:#cf2645;
+	padding:20px;
+	width: 170px;
+}
+a.button2 {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: #ffffff;
+	padding:20px;
+	background:#cf2645;
+	width: 170px;
+}
+a.button3 {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: #ffffff;
+	padding:20px;
+	background:#cf2645;
+    width: 170px;
+}
